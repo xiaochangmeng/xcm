@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "示例："; ObjectID = "3aL-PX-fbf"; */
+"3aL-PX-fbf.text" = "示例：";
+
+/* Class = "UIButton"; normalTitle = "重新錄製"; ObjectID = "K6n-FP-jXc"; */
+"K6n-FP-jXc.normalTitle" = "Record again";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cbp-Lz-oLm"; */
+"cbp-Lz-oLm.text" = "Label";
+
+/* Class = "UILabel"; text = "說幾句介紹自己的話用聲音打動她的心"; ObjectID = "fVa-gC-VQC"; */
+"fVa-gC-VQC.text" = "Say something to describe yourself \n Make her fall in love with your sound";
+
+/* Class = "UILabel"; text = "按住录音"; ObjectID = "gHJ-Wu-76h"; */
+"gHJ-Wu-76h.text" = "Press to record";
+
+/* Class = "UILabel"; text = "你好,我來自(臺北),今年24歲"; ObjectID = "r7W-GW-ykp"; */
+"r7W-GW-ykp.text" = "Hello, I am from (Hubei), I'm 24 years old";

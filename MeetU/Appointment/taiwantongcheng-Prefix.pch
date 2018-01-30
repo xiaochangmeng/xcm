@@ -1,0 +1,136 @@
+//
+//  Appointment-Prefix.pch
+//  Appointment
+//
+//  Created by feiwu on 16/7/8.
+//  Copyright © 2016年 广州飞屋网络. All rights reserved.
+//
+
+#ifndef Appointment_Prefix_pch
+#define Appointment_Prefix_pch
+
+#import "CONSTS.h" //设置了一些常量
+#import "UIViewExt.h"
+#import "UIView+Additions.h"
+#import "UIImage+ImageNamed_Hack.h"
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "FWUserInformation.h"
+#import "UITableView+Handle.h"
+
+#import "JBQuickControl.h"
+#import "JHRefresh.h"
+
+
+
+
+//#define codeUrl @"http://gj-dev.api.11yuehui.com"
+
+
+
+#define UIColorFromRGBAndAlpha(rgbValue,fla) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:fla]
+
+#define FWColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+//屏幕宽度
+#define kDECEIVE_WIDTH [UIScreen mainScreen].bounds.size.width
+//屏幕高度
+#define kDECEIVE_HEIGHT [UIScreen mainScreen].bounds.size.height
+// 全局色
+#define FWGGlobalColor [UIColor colorWithRed:(229)/255.0 green:(229)/255.0 blue:(229)/255.0 alpha:1.0]
+#define GET_OBJECT_OR_NULL(parameter)[parameter isEqual:[NSNull null]]?nil:parameter
+#define FWRedColor FWColor(242, 83, 85)
+#define FWGreenColor FWColor(20, 151, 24)
+
+#define UIColorFromRGBAndAlpha(rgbValue,fla) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:fla]
+#define AccountPath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"account.storage"]
+
+#define UIColorFromRGBAndAlpha(rgbValue,fla) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:fla]
+
+#define FWColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+//屏幕宽度
+#define kDECEIVE_WIDTH [UIScreen mainScreen].bounds.size.width
+//屏幕高度
+#define kDECEIVE_HEIGHT [UIScreen mainScreen].bounds.size.height
+// 全局色
+#define FWGGlobalColor [UIColor colorWithRed:(229)/255.0 green:(229)/255.0 blue:(229)/255.0 alpha:1.0]
+#define GET_OBJECT_OR_NULL(parameter)[parameter isEqual:[NSNull null]]?nil:parameter
+#define FWRedColor FWColor(242, 83, 85)
+#define FWGreenColor FWColor(20, 151, 24)
+
+#define UIColorFromRGBAndAlpha(rgbValue,fla) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:fla]
+#import "Masonry.h"
+#define screenW [UIScreen mainScreen].bounds.size.width
+#define screenH [UIScreen mainScreen].bounds.size.height
+#define KIsReviewKey @"KIsReviewKey"
+
+
+#define VersionNumber = @"2.1.8";
+#import <StoreKit/StoreKit.h>
+#import <ShareSDKExtension/SSEThirdPartyLoginHelper.h>
+#import "MJRefresh.h"
+// 网络请求
+#import "AFNetworking.h"
+
+// 获取网络图片2
+#import "UIImageView+WebCache.h"
+
+#import "UIButton+WebCache.h"
+#import <YWFeedbackFMWK/YWFeedbackKit.h>
+//md5加密
+#import "NSString+Hashing.h"
+
+#import <AdSupport/AdSupport.h>
+#import "HSKStorage.h"
+//上下拉刷新
+//#import "JHRefresh.h"
+#import "FWNetWorkTool.h"
+//#import "WKProgressHUD.h"
+
+//#import "CustomHua.h"
+//#import "NetWorkManager.h"
+
+//#import "MobClick.h"
+#import "FWNetWorkTool.h"
+#import "HSKStorage.h"
+
+#import "JBQuickControl.h"
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+
+#define DEFAULT_COLOR [UIColor blackColor]
+#define DEFAULT_WIDTH 2.0f
+#define DEFAULT_ALPHA 1.0f
+#import "Masonry.h"
+//#import "MJRefresh.h"
+
+#import "NetWorkManager.h"
+
+#import "MJExtension.h"
+
+#import <ShareSDK/ShareSDK.h>
+//#import <ShareSDKUI/ShareSDK+SSUI.h>
+
+//#import "ZTWebViewController.h"
+//
+//#import "WYWebProgressLayer.h"
+#import "UIView+Frame.h"
+#import "PMElasticRefresh.h"
+#import <ShareSDKExtension/SSEThirdPartyLoginHelper.h>
+
+#import "MBProgressHUD.h"
+
+
+
+//#import "WXApi.h"
+//#define weixinAppId @"wx397d0bc697b27b50"
+
+#define weixinAppId @"wx57cccaa33cb7e9ca"
+
+
+#import "ZCChinaLocation.h"
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+#define AccountPath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"account.storage"]
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+#endif /* PrefixHeader_pch */

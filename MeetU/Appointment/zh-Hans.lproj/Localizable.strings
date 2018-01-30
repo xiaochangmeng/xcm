@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  taiwantongcheng
+
+  Created by wangjian on 2017/8/22.
+  Copyright © 2017年 广州飞屋网络. All rights reserved.
+*/
+
+//图片国际化
+"common_pay_feedback"="common_pay_feedback@2x";
+"common_pay_qq"="common_pay_qq@2x";
+"common_refresh"="common_refresh@2x";
+"fate_activity_one.jpg"="fate_activity_one.jpg@2x";
+"fate_datail_recharge_mask_vip"="fate_datail_recharge_mask_vip@2x";
+"fate_datail_recharge_mask"="fate_datail_recharge_mask@2x";
+"fate_detail_headPlaceholder"="fate_detail_headPlaceholder@2x";
+"fate_detail_more"="fate_detail_more@2x";
+"fate_detail_next_highlighted"="fate_detail_next_highlighted@2x";
+"fate_detail_next"="fate_detail_next@2x";
+"fate_detail_sayhello"="fate_detail_sayhello@2x";
+"fate_detail_sayhello_??"="fate_detail_sayhello_??@2x";
+"fate_detail_sayhello_already"="fate_detail_sayhello_already@2x";
+"fate_detail_sayhello_en"="fate_detail_sayhello_en@2x";
+"fate_detail_send_highlighted"="fate_detail_send_highlighted@2x";
+"fate_detail_send"="fate_detail_send@2x";
+"fate_headPlaceholder"="fate_headPlaceholder@2x";
+"fate_vip"="fate_vip@2x";
+"letter_datail_recharge_mask"="letter_datail_recharge_mask_cn@2x";
+"letter_detail_imagePlaceholder"="letter_detail_imagePlaceholder@2x";
+"letter_headPlaceholder"="letter_headPlaceholder@2x";
+"letter_immediately_look"="letter_immediately_look@2x";
+"letter_noSelectOneMon"="letter_noSelectOneMon_cn@2x";
+"letter_noSelectThreeMon"="letter_noSelectThreeMon_cn@2x";
+"letter_noSelectYear"="letter_noSelectYear_cn@2x";
+"letter_selectedYear"="letter_selectedYear_cn@2x";
+"letter_selectOneMon"="letter_selectOneMon_cn@2x";
+"letter_selectThreeMon"="letter_selectThreeMon_cn@2x";
+"letter_sendView"="letter_sendView_cn@2x";
+"uploadHeaderDefaultMan"="uploadHeaderDefaultMan_cn@2x";
+"uploadHeaderDefaultWoman"="uploadHeaderDefaultWoman_cn@2x";
+"My_album_bg"="My_album_bg_cn@2x";
+"my_headPlaceholder"="my_headPlaceholder@2x";
+"my_info_hobbyNoSelect"="my_info_hobbyNoSelect@2x";
+"my_info_hobbySelected"="my_info_hobbySelected@2x";
+"my_tag_vip"="my_tag_vip@2x";
+"my_tag_vipNo"="my_tag_vipNo@2x";
+"my_tag_write"="my_tag_write@2x";
+"my_tag_writeNo"="my_tag_writeNo@2x";
+"my_upload_photo"="my_upload_photo@2x";
+"nearby_hello_default"="nearby_hello_default@2x";
+"nearby_hello_highlight"="nearby_hello_highlight@2x";
+"nearby_helloAll"="nearby_helloAll@2x";
+"fate_navigation_writer"="fate_navigation_writer@2x";
+"register_btn_male_normal"="register_btn_male_normal@2x";
+"register_btn_male_press"="register_btn_male_press@2x";
+"register_btn_female_normal"="register_btn_female_normal@2x";
+"register_btn_female_press"="register_btn_female_press_cn@2x";

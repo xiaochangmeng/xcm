@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="newfatecell" id="gTV-IL-0wX" customClass="newfateCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Uu2-8K-bkS">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swx-GN-A5m">
+                        <rect key="frame" x="5" y="5" width="20" height="11"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="22m-aX-neP"/>
+                            <constraint firstAttribute="height" constant="11" id="DIW-Vg-mKU"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="lot_hot"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sex_girl" translatesAutoresizingMaskIntoConstraints="NO" id="ss1-ws-vbf">
+                        <rect key="frame" x="5" y="82" width="15" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="PmM-Uj-Cu1"/>
+                            <constraint firstAttribute="height" constant="15" id="xuN-6S-0iF"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_theme_jewel_middle" translatesAutoresizingMaskIntoConstraints="NO" id="Ndk-tl-U47">
+                        <rect key="frame" x="68" y="4" width="30" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="Jk0-lH-9tc"/>
+                            <constraint firstAttribute="width" constant="30" id="u32-RE-gFK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwW-gt-rfB">
+                        <rect key="frame" x="25" y="83.5" width="70" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Uu2-8K-bkS" secondAttribute="bottom" id="4ax-GA-NKR"/>
+                <constraint firstItem="ss1-ws-vbf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="6Pa-Ts-i8m"/>
+                <constraint firstItem="dwW-gt-rfB" firstAttribute="leading" secondItem="ss1-ws-vbf" secondAttribute="trailing" constant="5" id="884-Cr-tHn"/>
+                <constraint firstItem="Uu2-8K-bkS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GyH-tL-XQd"/>
+                <constraint firstItem="swx-GN-A5m" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="HK0-2V-KNc"/>
+                <constraint firstItem="swx-GN-A5m" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="Jjw-Ft-MC2"/>
+                <constraint firstItem="Ndk-tl-U47" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="LZI-AM-un3"/>
+                <constraint firstAttribute="trailing" secondItem="dwW-gt-rfB" secondAttribute="trailing" constant="5" id="Na9-H9-sKO"/>
+                <constraint firstItem="Uu2-8K-bkS" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="NmD-Ey-PrH"/>
+                <constraint firstAttribute="trailing" secondItem="Uu2-8K-bkS" secondAttribute="trailing" id="bcD-xS-LqV"/>
+                <constraint firstAttribute="bottom" secondItem="ss1-ws-vbf" secondAttribute="bottom" constant="3" id="gBm-Or-KS1"/>
+                <constraint firstItem="dwW-gt-rfB" firstAttribute="centerY" secondItem="ss1-ws-vbf" secondAttribute="centerY" id="iFr-Xd-Gom"/>
+                <constraint firstAttribute="trailing" secondItem="Ndk-tl-U47" secondAttribute="trailing" constant="2" id="ms3-b9-LGR"/>
+            </constraints>
+            <connections>
+                <outlet property="detailabel" destination="dwW-gt-rfB" id="F7p-Bu-qYJ"/>
+                <outlet property="iconView" destination="Uu2-8K-bkS" id="Sz9-EL-r6J"/>
+                <outlet property="letfBtn" destination="swx-GN-A5m" id="LtS-Q4-ut8"/>
+                <outlet property="sexicon" destination="ss1-ws-vbf" id="U4f-Ag-2Vi"/>
+                <outlet property="vipicon" destination="Ndk-tl-U47" id="gfa-PP-wnF"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon_theme_jewel_middle" width="30" height="13"/>
+        <image name="lot_hot" width="20" height="11"/>
+        <image name="sex_girl" width="15" height="15"/>
+    </resources>
+</document>
